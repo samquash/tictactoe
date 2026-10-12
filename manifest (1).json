@@ -1,0 +1,13 @@
+{
+  "background_color": "#1d286d",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Tic Toc Toe",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Tic Toc Toe",
+  "start_url": "/",
+  "theme_color": "rgb(191, 52, 52)",
+  "id": "My shop",
+  "description": "Simple, fast aur mazedar game, kahin bhi khelein.\""
+}

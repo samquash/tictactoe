@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Neon Tic Tac Toe</title>
+<meta name="theme-color" content="#0b0d17">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
 <style>
   :root {
     --bg:#0b0d17; --panel:#141829; --panel-2:#1b2036; --text:#e8ecff; --muted:#7e86a8;
@@ -269,6 +272,9 @@
   });
 
   renderScores(); newRound(false);
+
+  // Register service worker (offline support)
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
 })();
 </script>
 </body>
