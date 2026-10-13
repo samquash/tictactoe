@@ -1,7 +1,7 @@
 {
   "id": "/",
-  "name": "Neon Tic Tac Toe",
-  "short_name": "TicTacToe",
+  "name": "SamQuash Neon XO",
+  "short_name": "Neon XO",
   "description": "A fun neon Tic Tac Toe game. Play with a friend or against the computer, even offline.",
   "start_url": "/",
   "scope": "/",
