@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.netlify.neon_tictactoe_sam.twa",
+        "sha256_cert_fingerprints": ["C6:BB:3E:88:4B:5D:66:89:8C:3E:71:BF:48:81:0F:E0:C8:02:C4:E9:5E:9F:FE:F9:C6:08:06:3D:03:B8:36:E8"]
+      }
+    }]
